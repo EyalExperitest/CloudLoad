@@ -18,7 +18,7 @@ import utils.RunCmd;
  * @author eyal.neumann
  *
  */
-public class InstallLaunchRunMonitor2 {
+public class InstallLaunchRunMonitor {
 
 	private static final String SHAERD_FOLDER = "C:\\myjars\\";
 
@@ -38,7 +38,7 @@ public class InstallLaunchRunMonitor2 {
 	private static long t0;
 	private static long t1;
 
-	public InstallLaunchRunMonitor2()  {
+	public InstallLaunchRunMonitor()  {
 		// TODO Auto-generated constructor stub
 
 	}

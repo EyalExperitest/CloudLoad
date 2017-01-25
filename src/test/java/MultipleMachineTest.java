@@ -1,9 +1,8 @@
-package tests;
-
 import java.io.IOException;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import monitors.MacCloudMonitor;
@@ -53,7 +52,7 @@ public class MultipleMachineTest {
 	 * boolean visableUI) {
 	 *  
 	 */
-	@Before
+	@Before@Ignore
 	public void setUp() throws Exception {
 
 		//**********Cloud Monitor Set Up********\/

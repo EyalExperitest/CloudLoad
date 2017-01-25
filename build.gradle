@@ -6,6 +6,7 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
+
 sourceCompatibility = 1.8
 
 
@@ -17,7 +18,15 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
     // https://mvnrepository.com/artifact/com.jcraft/jsch
+
     compile 'com.jcraft:jsch:0.1.54'
+    compile fileTree(dir: 'C:\\Program Files (x86)\\Experitest\\SeeTest\\clients\\java', include: '*.jar')
+
 }
 
-
+jar {
+    baseName = 'InstallLaunchRunMonitor'
+    version = '1.0'
+    manifest {
+        attributes 'Main-Class': 'scripts.InstallLaunchRunMonitor' }
+}

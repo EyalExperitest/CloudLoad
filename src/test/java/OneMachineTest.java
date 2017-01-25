@@ -1,9 +1,8 @@
-package tests;
-
 import java.io.IOException;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import remote.RemoteInstaller;
@@ -55,7 +54,7 @@ public class OneMachineTest {
 		
 	}
 
-	@Test
+	@Test@Ignore
 	public void test() throws IOException, InterruptedException {
 		
 /**/	

@@ -1,4 +1,4 @@
-package sandbox;
+package com;
 
 public class HelloWorld {
 

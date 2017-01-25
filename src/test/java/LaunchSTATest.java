@@ -1,7 +1,6 @@
-package tests;
-
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import launcher.STAProccess;
@@ -14,7 +13,7 @@ public class LaunchSTATest {
 		process.waitForLaunch();
 	}
 
-	@After
+	@After@Ignore
 	public void tearDown() throws Exception {
 		System.out.println("Launch ended");
 		process.destroy();

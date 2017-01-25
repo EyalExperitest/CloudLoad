@@ -1,5 +1,3 @@
-package tests;
-
 //package <set your test package>;
 import com.experitest.client.*;
 
@@ -30,7 +28,7 @@ public class AndroidEriBankTest {
 		client.setReporter("xml", "reports", "AndroidEriBankTest");
 	}
 
-	@Test
+	@Test@Ignore
 	public void testAndroidEriBankTest(){
 		String deviceName = client.waitForDevice("@os='android' ", 300000);
 		client.openDevice();
