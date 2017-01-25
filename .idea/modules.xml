@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloudload.iml" filepath="$PROJECT_DIR$/.idea/modules/cloudload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloudpreformence/cloudload-cloudload.iml" filepath="$PROJECT_DIR$/.idea/modules/cloudpreformence/cloudload-cloudload.iml" group="cloudload" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloudload_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cloudload_main.iml" group="cloudload" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cloudload_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cloudload_test.iml" group="cloudload" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,4 @@
+rootProject.name = 'cloudload'
+include 'cloudpreformence'
+findProject(':cloudpreformence')?.name = 'cloudload'
+
